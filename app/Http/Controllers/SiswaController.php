@@ -10,9 +10,7 @@ class SiswaController extends Controller
     public function index() {
         return view('terimaDataWith')->with(
             [
-                'nama' => "Ahmad Istakim",
-                'kelas' => "XI",
-                'jurusan' => "PPLG"
+                'nama' => "Ahmad Istakim"
             ]
         );
     }

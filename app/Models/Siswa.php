@@ -11,7 +11,5 @@ class Siswa extends Model
 
     protected $fillable = [
         'nama',
-        'kelas',
-        'jurusan'
     ];
 }
