@@ -10,7 +10,7 @@ class Siswa extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nama' => "a",
-        'alamat' => "b"
+        'nama',
+        'alamat'
     ];
 }

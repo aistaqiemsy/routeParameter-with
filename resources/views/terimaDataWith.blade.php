@@ -1,3 +1,3 @@
-{{ $nama }}
+{{ $nama }} 
+<br>
 {{ $kelas }}
-{{ $jurusan }}

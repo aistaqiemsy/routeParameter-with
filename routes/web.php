@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// buat route baru yang menggunakan controller | by Ahmad Istakim
+Route::get('/ruteController', [SiswaController::class, 'index']);
+
+
 // route menggunakan with
 Route::get('/withSiswa', [SiswaController::class, 'index']);
 
