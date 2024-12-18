@@ -7,11 +7,22 @@ use Illuminate\Http\Request;
 
 class SiswaController extends Controller
 {
-    public function index() {
+
+    public function index() { // menggunakan with
         return view('terimaDataWith')->with(
             [
-                'nama' => "Ahmad Istakim"
+                'nama' => "Ahmad Istakim",
+                'kelas' => "XI",
+                'jurusan' => "PPLG"
             ]
         );
+    }
+
+    public function indexArray() { // menggunakan array
+        return view('terimaData', [
+            'nama' => "Ahmad Istakim",
+            'kelas' => "XI Pengembangan Perangkat Lunak dan Gim",
+            'jurusan' => "PPLG/RPL"
+        ]);
     }
 }

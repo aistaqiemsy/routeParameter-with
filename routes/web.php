@@ -7,4 +7,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/dataSiswa', [SiswaController::class, 'index']);
+// route menggunakan with
+Route::get('/withSiswa', [SiswaController::class, 'index']);
+
+
+//menggunakan array
+Route::get('/arraySiswa', [SiswaController::class, 'indexArray']);

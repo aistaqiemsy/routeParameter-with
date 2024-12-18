@@ -6,10 +6,11 @@
     <title>Menerima dan Menampilkan Parameter</title>
 </head>
 <body>
-    Data Siswa <br> 
-    NIS : {{ $nisSiswa }}
+    NIS : {{ $nama }}
     <br>
-    Nama : {{ $namaSiswa }}    
+    Nama : {{ $kelas }}   
+    <br>
+    Jurusan : {{ $jurusan }} 
 
 </body>
 </html>
